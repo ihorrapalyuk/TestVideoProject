@@ -55,6 +55,7 @@ class MainTableViewController: UITableViewController, ChangeableTableViewCellDel
     }
     
     private func configureMainTableViewCell(cell: MainTableViewCell, withYouTubeVideoViewModel youTubeVideoViewModel: YouTubeVideoViewModel) {
+        cell.titleLabel?.text = youTubeVideoViewModel.title
         cell.durationLabel?.text = youTubeVideoViewModel.duration
         cell.dateLabel?.text = youTubeVideoViewModel.dateString
         cell.previewButton?.sd_setBackgroundImageWithURL(youTubeVideoViewModel.url, forState: .Normal)

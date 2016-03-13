@@ -37,12 +37,11 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="85.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPj-nx-BY4">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPj-nx-BY4">
                                             <rect key="frame" x="116" y="8" width="476" height="34"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="34" id="sPg-Lf-7nU"/>
                                             </constraints>
-                                            <string key="text">Label LabelLabel LabelLabel LabelLabel LabelLabel LabelLabel LabelLabel LabelLabel LabelLabel LabelLabel LabelLabel LabelLabel LabelLabel LabelLabel LabelLabel LabelLabel LabelLabel LabelLabel Label</string>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
