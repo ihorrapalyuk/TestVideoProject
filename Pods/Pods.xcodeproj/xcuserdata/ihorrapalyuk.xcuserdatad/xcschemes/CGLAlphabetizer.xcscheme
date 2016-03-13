@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C0D1FA1CF00DAD774E924020'
-               BlueprintName = 'Pods'
+               BlueprintIdentifier = '6D99164497DEE42AC55FEEE0'
+               BlueprintName = 'CGLAlphabetizer'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods.framework'>
+               BuildableName = 'CGLAlphabetizer.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -14,24 +14,35 @@ class MainTableViewController: UITableViewController, ChangeableTableViewCellDel
     
     private let mainTableViewCellIdentifier = "MainTableViewCellIdentifier"
     
-    private var youTubeVideoIdentifiers: [Int: [String]] = [0: ["JDbEgOsWGG4", "DO_3ECSL0rc", "48kekFLZkXU", "AZxK_6OQV7c", "mlzu_DXtG80", "nVu0naGTS_I", "ewSBggmhfrE", "MkPQEXK5lRE"], 1: ["ewSBggmhfrE", "MkPQEXK5lRE", "kHU8sdqxmKA", "YGIyaim_5kw", "7xUSH1QLHzk", "VkvpwEAriu4", "wzl_195ceFc"]]
+    private var youTubeVideoIdentifiers: [[String]] = [["JDbEgOsWGG4", "DO_3ECSL0rc", "48kekFLZkXU", "AZxK_6OQV7c", "mlzu_DXtG80", "nVu0naGTS_I", "ewSBggmhfrE", "MkPQEXK5lRE"], ["ewSBggmhfrE", "MkPQEXK5lRE", "kHU8sdqxmKA", "YGIyaim_5kw", "7xUSH1QLHzk", "VkvpwEAriu4", "wzl_195ceFc"]]
+    private var youTubeVideoSections: [String] = ["First Section", "Second Section"]
+    
     
     //MARK: UITableViewDataSource method
+    
+    override func sectionIndexTitlesForTableView(tableView: UITableView) -> [String]? {
+        return "#ABCDEFGHIJKLMNOPQRSTUVWXYZ".characters.map{String($0)}
+    }
+    
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return self.youTubeVideoSections[section]
+    }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return self.youTubeVideoIdentifiers.count
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.youTubeVideoIdentifiers[section]?.count ?? 0
+        return self.youTubeVideoIdentifiers[section].count ?? 0
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCellWithIdentifier(self.mainTableViewCellIdentifier,
-            forIndexPath: indexPath) as? MainTableViewCell, youTubeVideo = self.youTubeVideoIdentifiers[indexPath.section]?[indexPath.row] else {
+            forIndexPath: indexPath) as? MainTableViewCell else {
                 assertionFailure("Wrong UITableViewCell")
                 return UITableViewCell()
         }
+        let youTubeVideo = self.youTubeVideoIdentifiers[indexPath.section][indexPath.row]
         self.configureMainTableViewCell(cell, withYouTubeVideoIdentifier: youTubeVideo)
         return cell
     }
@@ -66,10 +77,10 @@ class MainTableViewController: UITableViewController, ChangeableTableViewCellDel
     
     func changeableTableViewCellDidChange(cell: UITableViewCell) {
         guard let _ = cell as? MainTableViewCell,
-            indexPath = self.tableView.indexPathForCell(cell),
-            youTubeVideo = self.youTubeVideoIdentifiers[indexPath.section]?[indexPath.row] else {
+            indexPath = self.tableView.indexPathForCell(cell) else {
                 return
         }
+        let youTubeVideo = self.youTubeVideoIdentifiers[indexPath.section][indexPath.row]
         let videoPlayerViewController = XCDYouTubeVideoPlayerViewController(videoIdentifier: youTubeVideo)
         self.presentViewController(videoPlayerViewController, animated: true, completion: nil)
     }

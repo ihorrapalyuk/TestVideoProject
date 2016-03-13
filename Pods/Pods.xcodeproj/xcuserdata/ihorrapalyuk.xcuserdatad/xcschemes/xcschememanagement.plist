@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CGLAlphabetizer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MagicalRecord.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +32,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>AC9A01E4C238973491BCF7CBD5AE9A31</key>
+		<key>1DD95F8CD2322A18BF0D015C7294CED9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B971988C3581C485A06F9EAB785559FB</key>
+		<key>39D76E9D65E7C59B048394E69F3FA27D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EC8FFDCF72E6FB84EC4C7DF7D7F9477</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FCF0EE6C868958F29CBF6EC19D6F8EBB</key>
+		<key>D93ACD5C44EA1D31F63D84C389E86E9A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
