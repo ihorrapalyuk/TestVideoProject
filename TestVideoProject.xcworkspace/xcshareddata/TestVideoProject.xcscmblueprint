@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "02983B418C5CD560E36C34147087DD2C6DF41D08" : 0,
+    "79C500967DA6BC09C8881DFFB9C8F01E243EE40F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F7DBF8BB-3F43-4AF2-9070-37EF8B926E10",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "02983B418C5CD560E36C34147087DD2C6DF41D08" : "CristalWalkiria\/",
+    "79C500967DA6BC09C8881DFFB9C8F01E243EE40F" : "ongo-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestVideoProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestVideoProject.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ihor_rapalyuk\/cristalwalkiria.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "02983B418C5CD560E36C34147087DD2C6DF41D08"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/lezgro\/ongo-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "79C500967DA6BC09C8881DFFB9C8F01E243EE40F"
+    }
+  ]
+}

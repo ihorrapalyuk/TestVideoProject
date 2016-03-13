@@ -1,0 +1,20 @@
+PODS:
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - XCDYouTubeKit (2.5.1)
+
+DEPENDENCIES:
+  - MagicalRecord
+  - SDWebImage
+  - XCDYouTubeKit (~> 2.5)
+
+SPEC CHECKSUMS:
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  XCDYouTubeKit: ee78997dc92d1055f11459d95c492dae1dba909d
+
+COCOAPODS: 0.39.0
