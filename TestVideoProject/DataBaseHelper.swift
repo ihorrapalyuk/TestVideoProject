@@ -1,8 +1,8 @@
 //
 //  DataBaseHelper.swift
-//  CristalWalkiria
+//  TestVideoProject
 //
-//  Created by Ihor Rapalyuk on 2/26/16.
+//  Created by Ihor Rapalyuk on 3/13/16.
 //  Copyright © 2016 Ihor Rapalyuk. All rights reserved.
 //
 

@@ -1,9 +1,9 @@
 //
 //  CellDelegate.swift
-//  OnGo
+//  TestVideoProject
 //
-//  Created by Ihor Rapalyuk on 12/18/15.
-//  Copyright © 2015 Lezgro. All rights reserved.
+//  Created by Ihor Rapalyuk on 3/13/16.
+//  Copyright © 2016 Ihor Rapalyuk. All rights reserved.
 //
 
 import UIKit
