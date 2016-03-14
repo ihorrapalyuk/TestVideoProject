@@ -16,13 +16,13 @@
 		D7089FEF1C9563DC00F659C9 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7089FEE1C9563DC00F659C9 /* MainTableViewController.swift */; };
 		D7089FF21C95645A00F659C9 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7089FF11C95645A00F659C9 /* MainTableViewCell.swift */; };
 		D7089FF51C9564F800F659C9 /* YouTubeVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7089FF41C9564F800F659C9 /* YouTubeVideo.swift */; };
-		D7089FF81C956F6D00F659C9 /* ChangeableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7089FF61C956F6D00F659C9 /* ChangeableTableViewCell.swift */; };
-		D7089FF91C956F6D00F659C9 /* ChangeableTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7089FF71C956F6D00F659C9 /* ChangeableTableViewCellDelegate.swift */; };
 		D7089FFC1C95768F00F659C9 /* YouTubeVideoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7089FFB1C95768F00F659C9 /* YouTubeVideoExtension.swift */; };
 		D708A0011C957E9100F659C9 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708A0001C957E9100F659C9 /* StringExtension.swift */; };
 		D708A0031C95841E00F659C9 /* YouTubeVideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708A0021C95841E00F659C9 /* YouTubeVideoViewModel.swift */; };
 		D708A0051C958DAC00F659C9 /* YouTubeVideo+XCDYouTubeVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708A0041C958DAC00F659C9 /* YouTubeVideo+XCDYouTubeVideo.swift */; };
-		D708A0081C958E2800F659C9 /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D708A0071C958E2800F659C9 /* DataBaseHelper.swift */; };
+		D77C1B321C9767E80088A891 /* ChangeableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C1B301C9767E80088A891 /* ChangeableTableViewCell.swift */; };
+		D77C1B331C9767E80088A891 /* ChangeableTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C1B311C9767E80088A891 /* ChangeableTableViewCellDelegate.swift */; };
+		D77C1B351C9767FF0088A891 /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C1B341C9767FF0088A891 /* DataBaseHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,13 +39,13 @@
 		D7089FEE1C9563DC00F659C9 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		D7089FF11C95645A00F659C9 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		D7089FF41C9564F800F659C9 /* YouTubeVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeVideo.swift; sourceTree = "<group>"; };
-		D7089FF61C956F6D00F659C9 /* ChangeableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangeableTableViewCell.swift; path = "../../ongo-ios/OnGo/OnGo/ChangeableTableViewCell.swift"; sourceTree = "<group>"; };
-		D7089FF71C956F6D00F659C9 /* ChangeableTableViewCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangeableTableViewCellDelegate.swift; path = "../../ongo-ios/OnGo/OnGo/ChangeableTableViewCellDelegate.swift"; sourceTree = "<group>"; };
 		D7089FFB1C95768F00F659C9 /* YouTubeVideoExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeVideoExtension.swift; sourceTree = "<group>"; };
 		D708A0001C957E9100F659C9 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		D708A0021C95841E00F659C9 /* YouTubeVideoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeVideoViewModel.swift; sourceTree = "<group>"; };
 		D708A0041C958DAC00F659C9 /* YouTubeVideo+XCDYouTubeVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YouTubeVideo+XCDYouTubeVideo.swift"; sourceTree = "<group>"; };
-		D708A0071C958E2800F659C9 /* DataBaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataBaseHelper.swift; path = ../../CristalWalkiria/CristalWalkiria/DataBaseHelper.swift; sourceTree = "<group>"; };
+		D77C1B301C9767E80088A891 /* ChangeableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeableTableViewCell.swift; sourceTree = "<group>"; };
+		D77C1B311C9767E80088A891 /* ChangeableTableViewCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeableTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		D77C1B341C9767FF0088A891 /* DataBaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +99,7 @@
 		D7089FD81C955F5200F659C9 /* TestVideoProject */ = {
 			isa = PBXGroup;
 			children = (
+				D77C1B341C9767FF0088A891 /* DataBaseHelper.swift */,
 				D7089FFF1C957E7600F659C9 /* Extensions */,
 				D7089FFA1C956F7300F659C9 /* ChangableTableViewCell */,
 				D7089FF31C95648E00F659C9 /* Entities */,
@@ -125,7 +126,6 @@
 		D7089FF31C95648E00F659C9 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				D708A0071C958E2800F659C9 /* DataBaseHelper.swift */,
 				D708A0061C958DF700F659C9 /* YouTubeVideo */,
 			);
 			name = Entities;
@@ -134,8 +134,8 @@
 		D7089FFA1C956F7300F659C9 /* ChangableTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				D7089FF61C956F6D00F659C9 /* ChangeableTableViewCell.swift */,
-				D7089FF71C956F6D00F659C9 /* ChangeableTableViewCellDelegate.swift */,
+				D77C1B301C9767E80088A891 /* ChangeableTableViewCell.swift */,
+				D77C1B311C9767E80088A891 /* ChangeableTableViewCellDelegate.swift */,
 			);
 			name = ChangableTableViewCell;
 			sourceTree = "<group>";
@@ -281,18 +281,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7089FF91C956F6D00F659C9 /* ChangeableTableViewCellDelegate.swift in Sources */,
 				D7089FEF1C9563DC00F659C9 /* MainTableViewController.swift in Sources */,
 				D7089FDA1C955F5200F659C9 /* AppDelegate.swift in Sources */,
 				D708A0051C958DAC00F659C9 /* YouTubeVideo+XCDYouTubeVideo.swift in Sources */,
-				D708A0081C958E2800F659C9 /* DataBaseHelper.swift in Sources */,
+				D77C1B331C9767E80088A891 /* ChangeableTableViewCellDelegate.swift in Sources */,
+				D77C1B351C9767FF0088A891 /* DataBaseHelper.swift in Sources */,
 				D7089FF51C9564F800F659C9 /* YouTubeVideo.swift in Sources */,
 				D708A0031C95841E00F659C9 /* YouTubeVideoViewModel.swift in Sources */,
-				D7089FF81C956F6D00F659C9 /* ChangeableTableViewCell.swift in Sources */,
 				D708A0011C957E9100F659C9 /* StringExtension.swift in Sources */,
 				D7089FF21C95645A00F659C9 /* MainTableViewCell.swift in Sources */,
 				D7089FE21C955F5200F659C9 /* TestVideoProject.xcdatamodeld in Sources */,
 				D7089FFC1C95768F00F659C9 /* YouTubeVideoExtension.swift in Sources */,
+				D77C1B321C9767E80088A891 /* ChangeableTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
